@@ -1,0 +1,5 @@
+# Keep report artifact bytes stable across checkouts.
+docs/v5.1/report/charts/*.svg -text -whitespace linguist-generated=true
+docs/v5.1/report/charts/*.png binary linguist-generated=true
+docs/v5.1/report/*.csv -text -whitespace linguist-generated=true
+docs/v5.1/report/report.html -text linguist-generated=true

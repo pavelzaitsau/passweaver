@@ -25,10 +25,9 @@ Run these from the repository root. The docs checks need
 
 ```bash
 python3 run_tests.py
-.agents/skills/markdown-formatting/scripts/lint-markdown.sh '*.md' 'final-algorithm/*.md' 'hybrid-v*/*.md'
+.agents/skills/markdown-formatting/scripts/lint-markdown.sh '*.md' 'final-algorithm/*.md' 'hybrid-v*/*.md' 'docs/**/*.md'
 .agents/skills/docs-linter/scripts/lint-docs.sh .
 ```
 
-Pass `'docs/**/*.md'` to the Markdown check when the report docs are present.
 See the README for [commit signing](README.md#signed-commits) and
 [archive provenance](README.md#provenance).

@@ -6,4 +6,5 @@ and report packaging.
 
 The [spec](SPEC.md) records the comparison design. The
 [PRINCE manifest](prince-manifest.json) records the pinned dependency and its
-checksums. The historical comparison needs private inputs.
+checksums. The [V5.1 report](../docs/v5.1/README.md) covers the later run,
+which reproduced the V5 main and control results on the historical sample.

@@ -1,0 +1,16 @@
+{
+  "bootstrap": {
+    "method": "paired percentile cluster bootstrap by exact SSID",
+    "repetitions": 5000,
+    "seed": 20261116,
+    "clusters": 814,
+    "interval": "pointwise 95%; conditional sample stability, not population generalization"
+  },
+  "source_sha256": {
+    "build.py": "99785b79db0b59011235e6b356132f63613885ac46a3820ba75c3915242e646c",
+    "charts.py": "ee85383df5f288c2b638d86525ddfa7aa23540e75f8726b5033684d96db59624",
+    "archive.py": "5521125cbf3d7d20615bf57b6c7e154aad935d05494216ef74236fa0d7123d8b"
+  },
+  "shared_analysis_sha256": "9dc603aad2b6bd4818c81b86abc182be6724f99dbfff56f9fec976c7d5b6ebc1",
+  "input_attestation": "3beccdeae984c9413c08fb482d012b1d288e17eadb543602cab81b7cb17d2834"
+}

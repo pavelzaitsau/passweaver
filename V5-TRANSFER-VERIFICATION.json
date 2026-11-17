@@ -1,0 +1,298 @@
+{
+  "version": "v5.1-context-protected-v3",
+  "date": "2026-11-17",
+  "source_snapshot_files_verified": 120,
+  "v5_version_files_verified": 47,
+  "version_files": [
+    {
+      "path": "hybrid-v5/README.md",
+      "bytes": 381,
+      "sha256": "975c8921419ba4d30b1935fbaba5f8603086291752a6b4cef5358e58135fff8d",
+      "source_bytes": 5496,
+      "source_sha256": "6ef76d57fd9782c9205bf48477e61eeba9d5039b3c23fbce52aead7e280dacf0"
+    },
+    {
+      "path": "hybrid-v5/SPEC.md",
+      "bytes": 601,
+      "sha256": "86c0ed6447ca616fe17da2219e7bab93db1b4e12954f523723274fe9e9225e9c",
+      "source_bytes": 7695,
+      "source_sha256": "edb23bfb10bea355c5478127e870d2c06848a655b20983d9c4eeb8b0db05f78d"
+    },
+    {
+      "path": "hybrid-v5/compare_v5.py",
+      "bytes": 17490,
+      "sha256": "04064e7d331de192a4ebf1d9944d5cab9327b2d2cf2bab204f2903d65e31efe9"
+    },
+    {
+      "path": "hybrid-v5/prince-manifest.json",
+      "bytes": 1290,
+      "sha256": "643a3c09b3b6a660007f1805e18dfadc9051a0e0e2410f62def84272fd6d4874"
+    },
+    {
+      "path": "hybrid-v5/prince-seeds.txt",
+      "bytes": 221966,
+      "sha256": "afc9721dc4ba19bc26045c4559f373417c761c488f57b659ab9a07e40223fc27"
+    },
+    {
+      "path": "hybrid-v5/refresh_baseline.py",
+      "bytes": 4613,
+      "sha256": "5e248a6e70f3701e6ca57512ec7cb66f2d2fed25625ebe33f069776463826c6c"
+    },
+    {
+      "path": "hybrid-v5/reporting/build.py",
+      "bytes": 16086,
+      "sha256": "5bfca52216ec72cf3cc7b441ad1bd037864ba91f6becf62b455cc0ef8eae98db"
+    },
+    {
+      "path": "hybrid-v5/reporting/charts.py",
+      "bytes": 6734,
+      "sha256": "2a5f2a93e36f4a464fa4933533fb0aebb2244515ce0fd15f900c118d8e127cc3"
+    },
+    {
+      "path": "hybrid-v5/test_cache.py",
+      "bytes": 6144,
+      "sha256": "3708a931ff8dae5c8b53563616cd314a11930149ea89528019fb259315304aea"
+    },
+    {
+      "path": "hybrid-v5/test_v5.py",
+      "bytes": 6936,
+      "sha256": "dcd805ef99c09e40be1f15b31aefee916442809a3fa9a90d6fae2d9d2e9fce4d"
+    },
+    {
+      "path": "hybrid-v5/v5.py",
+      "bytes": 8623,
+      "sha256": "51a3622a92cb67a3c1d22ed3de55a84641d9be2c68bc6e515039bbf642299c4c"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/.editorconfig",
+      "bytes": 283,
+      "sha256": "24907730b107aa6731da6ba7a915d5a3aa4acc0156e610353c593050c02466e9"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/.gitignore",
+      "bytes": 30,
+      "sha256": "70f64310f0b55a9226c863fc45fb289ea01def6ef2cfc57f88c7f42532f9569e"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/CHANGES",
+      "bytes": 2056,
+      "sha256": "e73ac8db23b29cc167122f6bf773d5c9a973957f67af9ab14d607be1e1bdb847"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/LICENSE",
+      "bytes": 1447,
+      "sha256": "4073df0b2d8d335681fed60cbc082cea08998b55b6b9314bb862c8c8adeea191"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/README.md",
+      "bytes": 1756,
+      "sha256": "e4dd4549b430daca0f50ff2b86e22c66d5249ae867b93cdcc3b25d0ed8eb7470"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/rules/prince_generated.rule",
+      "bytes": 58561,
+      "sha256": "66ad8dc51eb16026f9aaca48873bd893d754389b84d4c46eed2a6f032ed0b402"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/rules/prince_optimized.rule",
+      "bytes": 12666,
+      "sha256": "e31b0a698b3b4d3c11733fe02e45aa8f3461a3861d9d3d698a811933232a506e"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/src/Makefile",
+      "bytes": 1554,
+      "sha256": "7463d247a030273064014ef6b7e3ce6a332310462dedc9fb9da063cda458d01d"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/src/mpz_int128.h",
+      "bytes": 4659,
+      "sha256": "4cfafe463143f9010001af364737b1dec4215828bba55c9e48cb5d940bc0a988"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/src/pp.c",
+      "bytes": 35073,
+      "sha256": "5dde11e2f35d0b6317c7f300512f0454ccd8efec3eb39f7108398ec5a20a28ef"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/src/ppAppleArm64.bin",
+      "bytes": 35072,
+      "sha256": "3658cb55efde67fde636ee98378b1936695d52c3124ad776fd52ceec35e81b36"
+    },
+    {
+      "path": "hybrid-v5.1/README.md",
+      "bytes": 347,
+      "sha256": "6469445e69963af40e5d740087d1b35177d23ff82d315e1c880ac3be7596569f",
+      "source_bytes": 4754,
+      "source_sha256": "de1167f0ab38c6095bbe6b2575c788473d05894ce9bd3904848600bab840c44f"
+    },
+    {
+      "path": "hybrid-v5.1/SPEC.md",
+      "bytes": 568,
+      "sha256": "e72bbe129030a8e852d5b97198684e3476161c8b8832aeee42a0a7e592ec5708",
+      "source_bytes": 9513,
+      "source_sha256": "e7156ffa9958238e67d2cf20a33110464eb839e41400192295fd27e21f866d88"
+    },
+    {
+      "path": "hybrid-v5.1/compare_v5.py",
+      "bytes": 17507,
+      "sha256": "933c7febe52fe4a172387912ec4ca8b31389d01abf94e39db595e6dac8e0846c"
+    },
+    {
+      "path": "hybrid-v5.1/prince-manifest.json",
+      "bytes": 1290,
+      "sha256": "643a3c09b3b6a660007f1805e18dfadc9051a0e0e2410f62def84272fd6d4874"
+    },
+    {
+      "path": "hybrid-v5.1/prince-seeds.txt",
+      "bytes": 221966,
+      "sha256": "afc9721dc4ba19bc26045c4559f373417c761c488f57b659ab9a07e40223fc27"
+    },
+    {
+      "path": "hybrid-v5.1/refresh_baseline.py",
+      "bytes": 4613,
+      "sha256": "5e248a6e70f3701e6ca57512ec7cb66f2d2fed25625ebe33f069776463826c6c"
+    },
+    {
+      "path": "hybrid-v5.1/reporting/archive.py",
+      "bytes": 1247,
+      "sha256": "5521125cbf3d7d20615bf57b6c7e154aad935d05494216ef74236fa0d7123d8b"
+    },
+    {
+      "path": "hybrid-v5.1/reporting/build.py",
+      "bytes": 17191,
+      "sha256": "99785b79db0b59011235e6b356132f63613885ac46a3820ba75c3915242e646c"
+    },
+    {
+      "path": "hybrid-v5.1/reporting/charts.py",
+      "bytes": 6746,
+      "sha256": "ee85383df5f288c2b638d86525ddfa7aa23540e75f8726b5033684d96db59624"
+    },
+    {
+      "path": "hybrid-v5.1/test_archive.py",
+      "bytes": 1503,
+      "sha256": "728648e316cc7c3096de43cfa851b13be81bbdf7cc584ba28c95c856f17d9f24"
+    },
+    {
+      "path": "hybrid-v5.1/test_cache.py",
+      "bytes": 6144,
+      "sha256": "3708a931ff8dae5c8b53563616cd314a11930149ea89528019fb259315304aea"
+    },
+    {
+      "path": "hybrid-v5.1/test_context.py",
+      "bytes": 2843,
+      "sha256": "5aca8482ce1fa598d6e546abf2da5104ef6e174b0f94fa639777ba1d917bc777"
+    },
+    {
+      "path": "hybrid-v5.1/test_v5.py",
+      "bytes": 6936,
+      "sha256": "dcd805ef99c09e40be1f15b31aefee916442809a3fa9a90d6fae2d9d2e9fce4d"
+    },
+    {
+      "path": "hybrid-v5.1/v5.py",
+      "bytes": 9391,
+      "sha256": "0ce8c46a0ad2605c84e80fbe90b9b2c26633a043c787ae98b2a0113ea1ab61d4"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/.editorconfig",
+      "bytes": 283,
+      "sha256": "24907730b107aa6731da6ba7a915d5a3aa4acc0156e610353c593050c02466e9"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/.gitignore",
+      "bytes": 30,
+      "sha256": "70f64310f0b55a9226c863fc45fb289ea01def6ef2cfc57f88c7f42532f9569e"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/CHANGES",
+      "bytes": 2056,
+      "sha256": "e73ac8db23b29cc167122f6bf773d5c9a973957f67af9ab14d607be1e1bdb847"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/LICENSE",
+      "bytes": 1447,
+      "sha256": "4073df0b2d8d335681fed60cbc082cea08998b55b6b9314bb862c8c8adeea191"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/README.md",
+      "bytes": 1756,
+      "sha256": "e4dd4549b430daca0f50ff2b86e22c66d5249ae867b93cdcc3b25d0ed8eb7470"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/rules/prince_generated.rule",
+      "bytes": 58561,
+      "sha256": "66ad8dc51eb16026f9aaca48873bd893d754389b84d4c46eed2a6f032ed0b402"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/rules/prince_optimized.rule",
+      "bytes": 12666,
+      "sha256": "e31b0a698b3b4d3c11733fe02e45aa8f3461a3861d9d3d698a811933232a506e"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/src/Makefile",
+      "bytes": 1554,
+      "sha256": "7463d247a030273064014ef6b7e3ce6a332310462dedc9fb9da063cda458d01d"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/src/mpz_int128.h",
+      "bytes": 4659,
+      "sha256": "4cfafe463143f9010001af364737b1dec4215828bba55c9e48cb5d940bc0a988"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/src/pp.c",
+      "bytes": 35073,
+      "sha256": "5dde11e2f35d0b6317c7f300512f0454ccd8efec3eb39f7108398ec5a20a28ef"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/src/ppAppleArm64.bin",
+      "bytes": 35072,
+      "sha256": "3658cb55efde67fde636ee98378b1936695d52c3124ad776fd52ceec35e81b36"
+    }
+  ],
+  "portable_tests": {
+    "passed": 119,
+    "skipped_private_or_capture": 16
+  },
+  "optional_reporting_tests_passed": 5,
+  "algorithm_bytes_changed": false,
+  "new_cracking_runs": 0,
+  "reports": {
+    "docs/v5.1/README.md": "5782ffb50fe76c54325d71f2d3992a1cff6520571293323b550c4db847af4c0d",
+    "docs/v5.1/DECISIONS.md": "becbec9e0fcec2929d5d5d26003ecaf492a04f24ca7af9c42e31b380aee72c7a",
+    "docs/v5.1/report/metrics.json": "e826ce4157cb2a84de3dd1f61f6bb165c1865089169347381a988513414fdc6b",
+    "docs/v5.1/report/prince-control.csv": "009ef36ef2157b3531defb855d3ab5e972920dfec8bcf02193f71e92c37ae329",
+    "docs/v5.1/report/analysis-provenance.json": "fcf17edb6e7c40c8550b86ddff8c978f819de49162de2fd1b40ad0929b7efa97",
+    "docs/v5.1/report/RESULTS.md": "9438ba9b0340cdd023e73a5390f1142f813d447823a57522c2dc75b5a3bdb52b",
+    "docs/v5.1/report/FINAL-REVIEW.md": "08581434bf9209a4189fe8990a8ec108a6f496be3f8de737a208be47cc7ebe86",
+    "docs/v5.1/report/report.html": "9b8980b90929d4fb3944a3639cfbaaaa390fdf93679a76c03103aa6146f9fff2",
+    "docs/v5.1/report/checkpoints.csv": "05b72eeadaabff9b6b77d7fc2f1190dde0355c275303a288b2074c9218872cd7",
+    "docs/v5.1/report/charts/paired-gains-losses.png": "6399057f9c50e265a81ab364cea35085040872b5854058b789688df84bd647af",
+    "docs/v5.1/report/charts/paired-gains-losses.svg": "27f48547533a5bc5573e4c9eac5a229672c8461bdb3b91fb021a7f73edd15af2",
+    "docs/v5.1/report/charts/cost.svg": "cf2e3d55f68d0e55265c01b5580346b78a5570935a1fa51c7d77e15647e9f777",
+    "docs/v5.1/report/charts/stability.png": "be5936aec93d96afb6abffffa2abc1c3e09e344d3c32599f10134f54b4378447",
+    "docs/v5.1/report/charts/datasets.svg": "3e0ac5c21eca00f854762a56cfd36299c6ed8a3541e142163541aacc3416cae9",
+    "docs/v5.1/report/charts/coverage.svg": "9d323136bd2d3dbdfd2ac7b9fc73658b2254f0ecb9c58bf1ce34680c4915db49",
+    "docs/v5.1/report/charts/coverage.png": "ff898961f774f6cc14a008b1f50ba13731aa9f561f8726b1553d095eb6cd349d",
+    "docs/v5.1/report/charts/datasets.png": "b90b6dc3e5617676e35ff48a3f9e72273d85fd974b508e51a29ad244e98089b4",
+    "docs/v5.1/report/charts/stability.svg": "9c614c32e06ac96770c3df6622ee6978a2e23b4ed0d30b3a1bf06d40ec858b78",
+    "docs/v5.1/report/charts/cost.png": "db9d2f5eea78de3df3f5cb504b615c47bc97d5af69d1b601d08efba0f822e1e4",
+    "docs/v5.1/report/review/REVIEW.md": "e2864dd9bbc33602a9ee519685173b7752ef4138a516c1ea8f925b392368c419"
+  },
+  "source_report_sha256": {
+    "docs/v5.1/README.md": "c69d435b120bd6de30f7939d815027d336ef658f4d133ab4420912bf6fae9d0f",
+    "docs/v5.1/DECISIONS.md": "70b5c9038595ccda04c69e6f7867086d7fe8a6edc222e180936246c8c1a4329f",
+    "docs/v5.1/report/RESULTS.md": "6e5ddef7aad860bb725b89eb0f6ef8b94638e9b44ff6532b254971e9636ee667",
+    "docs/v5.1/report/FINAL-REVIEW.md": "db209ea8d2dcd099fb242c1a3bf12fc11863bfc138b035f872351e76cd2ba8be",
+    "docs/v5.1/report/report.html": "07269c93a1aef4236449edb6eeff2f98dd375913cb69e33983088b7b4bff73ff",
+    "docs/v5.1/report/charts/paired-gains-losses.png": "087fad88438640d57ceb081d825b3851d98e37d5785207f0288b62ebbd646502",
+    "docs/v5.1/report/charts/paired-gains-losses.svg": "1fb3b6cdf901c2a98fb20d78d5f9a96850873853392105272948e29c651676fa",
+    "docs/v5.1/report/charts/cost.svg": "6b0baaae6cb2e66f8ce97b6cafe4c9cbde83ae96e63a0207cfd70caf3a0049af",
+    "docs/v5.1/report/charts/stability.png": "96852cec15132c29d0db5c28306ffb2b708e447cefdaba73e365c00064d52ed6",
+    "docs/v5.1/report/charts/datasets.svg": "f8269d6e7c09468ee89a656f942e224e1af2ff0cbe936e4bfe28f09dab0d578f",
+    "docs/v5.1/report/charts/coverage.svg": "062c27b7f5f5b6dc1f2217695e8cd0632387d36b2fd7ba68107c641b9e819c46",
+    "docs/v5.1/report/charts/coverage.png": "eeafde976e93302a2ce3f3e8b7a9c7bcdd36e28aca8780f12a55afd39a371c76",
+    "docs/v5.1/report/charts/datasets.png": "97a509f5dc250922853772623bfa863bc4ab2128b8ec19884409356d210cb07b",
+    "docs/v5.1/report/charts/stability.svg": "16c494772fb2a4a78d2dec2c41698b0566a022f6e154eeee9e72556db50fb176",
+    "docs/v5.1/report/charts/cost.png": "fff2a155a2af29afd1d8be12cb206ca37344f1e74e88528b2add447794eafbf2",
+    "docs/v5.1/report/review/REVIEW.md": "eb080d5754edc13c2bad4f1a4227cf709e4ba28be67fa20efe1e05c110599fd7"
+  }
+}

@@ -1,7 +1,8 @@
 # Passweaver
 
 Passweaver is a research archive for offline Wi-Fi password studies. It
-contains four revisions and synthetic tests.
+contains four revisions, synthetic tests, and an aggregate report for the
+latest reviewed revision, V5.1.
 
 ## Revisions
 
@@ -15,6 +16,17 @@ contains four revisions and synthetic tests.
 Keep the four version directories next to each other for their imports.
 V5 and V5.1 include PRINCE source and a macOS ARM64 binary.
 
+## V5.1 results
+
+At the two-hour modeled checkpoint, V5.1 matched 325 of the 852 records
+and V3 matched 286. The study reused records from earlier experiments,
+so it measures performance on that sample. The archive excludes the
+private inputs needed to repeat the comparison.
+
+- [Results and charts](docs/v5.1/report/RESULTS.md)
+- [HTML report](docs/v5.1/report/report.html)
+- [Review and follow-up decisions](docs/v5.1/README.md)
+
 ## Tests
 
 From the repository root, run the portable suite with Python 3.9 or later.
@@ -23,6 +35,9 @@ From the repository root, run the portable suite with Python 3.9 or later.
 python3 run_tests.py
 ```
 
+The archive verification recorded 119 passes and 16 skips for cases that
+need private baselines or capture fixtures. It also recorded five
+separate reporting checks that require NumPy and Matplotlib.
 See the [agent guide](AGENTS.md#checks) for documentation checks.
 
 ## Signed commits
@@ -45,8 +60,13 @@ The hook verifies each commit a push introduces to the remote `main` branch.
 ## Provenance
 
 The [snapshot manifest](SNAPSHOT-MANIFEST.json) records checksums and file
-sizes for the original import. Version-specific manifests record the original
-experiments and may refer to evidence outside this repository.
+sizes for the original import. The
+[transfer verification record](V5-TRANSFER-VERIFICATION.json) records the
+V5 and V5.1 source and report checksums at publication. Verify the source
+checksums against the [signed V5.1 import](https://github.com/pavelzaitsau/passweaver/tree/086da079bb278101cc9aaa90f91a8804b9cf560b)
+and the report checksums against the [archived report files](docs/v5.1).
+Version-specific manifests record the original experiments and may refer
+to evidence outside this repository.
 
 The archive excludes private inputs, individual outcomes, capture files,
 and keys.
