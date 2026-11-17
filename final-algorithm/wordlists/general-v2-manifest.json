@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "selection": "external_general_purpose_sources_selected_without_reading_test_passwords",
+  "sources": [
+    {
+      "id": "ncsc-common-100k",
+      "url": "https://raw.githubusercontent.com/danielmiessler/SecLists/master/Passwords/Common-Credentials/100k-most-used-passwords-NCSC.txt",
+      "kind": "passwords",
+      "filename": "ncsc-common-100k.txt",
+      "downloaded_utc": "2026-11-15",
+      "source_sha256": "c2e5696882c603b76bb67a47ee970897e5a76fc4c3f5547abe3d0ca340c576e0",
+      "prepared_sha256": "626c30fc3c8f16e5f8977ce898f9fa9c0ea42f6463c7e0addde4bdbbb7e251ab",
+      "source_records": 99840,
+      "prepared_unique_records": 99839,
+      "new_exact_strings_vs_existing_two_lists": 89271,
+      "wpa2_length_eligible_without_transform": 47369,
+      "ordering": "source_order_preserved",
+      "case": "preserved",
+      "prepared_path": "wordlists/ncsc-common-100k.txt"
+    },
+    {
+      "id": "symspell-english-80k",
+      "url": "https://raw.githubusercontent.com/wolfgarbe/SymSpell/master/SymSpell/frequency_dictionary_en_82_765.txt",
+      "kind": "frequency_words",
+      "filename": "symspell-english-80k.txt",
+      "downloaded_utc": "2026-11-15",
+      "source_sha256": "c604e1121e398ae7c7fbf777f11e0a0f2fa66eda932cb9fba1321466cf3acd7b",
+      "prepared_sha256": "b0b64dfd09aac37e93fa171421936efd90133e490f1d5985f462e074944da632",
+      "source_records": 82834,
+      "prepared_unique_records": 82834,
+      "new_exact_strings_vs_existing_two_lists": 70546,
+      "wpa2_length_eligible_without_transform": 46393,
+      "ordering": "frequency_descending",
+      "case": "preserved",
+      "prepared_path": "wordlists/symspell-english-80k.txt"
+    }
+  ],
+  "deduplicated_union_records": 171075
+}

@@ -1,0 +1,15 @@
+{
+  "version": "v3-reviewed",
+  "budget_per_pair": 71400000,
+  "assumed_checks_per_second": 235000,
+  "raw_limit": 200000,
+  "ssid_rules_limit": 1000000,
+  "ssid_expanded_limit": 1000000,
+  "ssid_context_limit": 1000000,
+  "context_word_limit": 2000,
+  "broad_word_limit": 30000,
+  "word_rules_limit": 20000000,
+  "pair_word_limit": 50000,
+  "pair_ordering": "product",
+  "family_batch": 10000
+}

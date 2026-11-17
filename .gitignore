@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+.venv/
+results/
+private-inputs/
+*.private.*
+*.key
+*.pem
+*.pcap
+*.pcapng
+*.22000
+*.potfile
+*.zip
+node_modules/

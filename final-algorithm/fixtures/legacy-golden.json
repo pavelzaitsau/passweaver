@@ -1,0 +1,144 @@
+{
+  "raw": [
+    "first042",
+    "second42"
+  ],
+  "words": [
+    "harbor",
+    "sunset",
+    "forest",
+    "garden",
+    "meadow",
+    "coffee",
+    "canyon",
+    "river"
+  ],
+  "cases": [
+    {
+      "original_profile": "v2-general",
+      "ssid": "FixtureCafe",
+      "config": {
+        "version": "v2-reviewed",
+        "budget_per_pair": 5000,
+        "assumed_checks_per_second": 235000,
+        "raw_limit": 2,
+        "ssid_rules_limit": 30,
+        "ssid_expanded_limit": 1000000,
+        "ssid_context_limit": 30,
+        "context_word_limit": 2000,
+        "broad_word_limit": 30000,
+        "word_rules_limit": 100,
+        "pair_word_limit": 8,
+        "pair_ordering": "sum",
+        "family_batch": 0
+      },
+      "count": 5000,
+      "stage_and_candidate_sha256": "85fb5e28e3c72d2a285096f972740a5da73e7aa1cfe48c72ac05cd13dd658cdd"
+    },
+    {
+      "original_profile": "v2-general",
+      "ssid": "HarborGuest",
+      "config": {
+        "version": "v2-reviewed",
+        "budget_per_pair": 5000,
+        "assumed_checks_per_second": 235000,
+        "raw_limit": 2,
+        "ssid_rules_limit": 30,
+        "ssid_expanded_limit": 1000000,
+        "ssid_context_limit": 30,
+        "context_word_limit": 2000,
+        "broad_word_limit": 30000,
+        "word_rules_limit": 100,
+        "pair_word_limit": 8,
+        "pair_ordering": "sum",
+        "family_batch": 0
+      },
+      "count": 5000,
+      "stage_and_candidate_sha256": "6aa43a5145602c25dbe554ab0d3fdcd531c92f4e3911b1e44e72f1b8cc405121"
+    },
+    {
+      "original_profile": "v2-general",
+      "ssid": "éFixture",
+      "config": {
+        "version": "v2-reviewed",
+        "budget_per_pair": 5000,
+        "assumed_checks_per_second": 235000,
+        "raw_limit": 2,
+        "ssid_rules_limit": 30,
+        "ssid_expanded_limit": 1000000,
+        "ssid_context_limit": 30,
+        "context_word_limit": 2000,
+        "broad_word_limit": 30000,
+        "word_rules_limit": 100,
+        "pair_word_limit": 8,
+        "pair_ordering": "sum",
+        "family_batch": 0
+      },
+      "count": 5000,
+      "stage_and_candidate_sha256": "2aa690b106695102c744d1d597d7373a8de74a833ce5a4c34239ae6e0b0a232c"
+    },
+    {
+      "original_profile": "v3-balanced",
+      "ssid": "FixtureCafe",
+      "config": {
+        "version": "v3-reviewed",
+        "budget_per_pair": 5000,
+        "assumed_checks_per_second": 235000,
+        "raw_limit": 2,
+        "ssid_rules_limit": 30,
+        "ssid_expanded_limit": 1000000,
+        "ssid_context_limit": 30,
+        "context_word_limit": 2000,
+        "broad_word_limit": 30000,
+        "word_rules_limit": 100,
+        "pair_word_limit": 8,
+        "pair_ordering": "product",
+        "family_batch": 2
+      },
+      "count": 5000,
+      "stage_and_candidate_sha256": "e50f6958a57bb199e1542ac909bd977686cddaf3202f2b17c794fb0eac8e8406"
+    },
+    {
+      "original_profile": "v3-balanced",
+      "ssid": "HarborGuest",
+      "config": {
+        "version": "v3-reviewed",
+        "budget_per_pair": 5000,
+        "assumed_checks_per_second": 235000,
+        "raw_limit": 2,
+        "ssid_rules_limit": 30,
+        "ssid_expanded_limit": 1000000,
+        "ssid_context_limit": 30,
+        "context_word_limit": 2000,
+        "broad_word_limit": 30000,
+        "word_rules_limit": 100,
+        "pair_word_limit": 8,
+        "pair_ordering": "product",
+        "family_batch": 2
+      },
+      "count": 5000,
+      "stage_and_candidate_sha256": "4f72bd369bd7512277bcb570ac0d87af41c132a95973a68c7bf746e3b1f29fde"
+    },
+    {
+      "original_profile": "v3-balanced",
+      "ssid": "éFixture",
+      "config": {
+        "version": "v3-reviewed",
+        "budget_per_pair": 5000,
+        "assumed_checks_per_second": 235000,
+        "raw_limit": 2,
+        "ssid_rules_limit": 30,
+        "ssid_expanded_limit": 1000000,
+        "ssid_context_limit": 30,
+        "context_word_limit": 2000,
+        "broad_word_limit": 30000,
+        "word_rules_limit": 100,
+        "pair_word_limit": 8,
+        "pair_ordering": "product",
+        "family_batch": 2
+      },
+      "count": 5000,
+      "stage_and_candidate_sha256": "967a1e524ede7a260ea8137f1048593eff7d090f8b8d6e09b85ab66dcc0e68e1"
+    }
+  ]
+}
