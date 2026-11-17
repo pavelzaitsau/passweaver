@@ -10,6 +10,30 @@ components, not to Passweaver as a whole. The rules for adding third-party code
 are in docs/acceptable-use.md, section "Adding third-party code".
 
 ======================================================================
+Copydesk skills (branch-names, commit-messages, demo-video, docs-linter,
+explainer, markdown-formatting, technical-writing)
+----------------------------------------------------------------------
+Source:  https://github.com/pavelzaitsau/copydesk (commit f2b8f18417da0e586a26556ae10227a681813761)
+License: MIT-0 (MIT No Attribution), Copyright 2026 Pavel Zaitsau
+Files:   .agents/skills/<skill>/
+
+Each skill directory carries its own LICENSE.txt with the MIT-0 text. MIT-0
+applies to those directories instead of the PolyForm Noncommercial License,
+with one exception below.
+
+The demo-video skill can download and run third-party voice models. The models
+are not included in this repository. Their owners ask a repository that uses
+them to carry their license texts, so .agents/skills/demo-video/NOTICE and
+.agents/skills/demo-video/licenses/ hold those texts:
+
+  - Fish Audio S2 Pro: Fish Audio Research License, Copyright 39 AI, Inc.
+  - Fish Audio Drama 3: Fish Audio Community License 1.0, Copyright 39 AI, Inc.
+  - Boson Higgs TTS 3: Boson Higgs TTS 3 Research and Non-Commercial License,
+    Copyright Boson AI USA, Inc.
+
+Those texts stay under their owners' terms, not MIT-0.
+
+======================================================================
 Public password and frequency wordlists
 ----------------------------------------------------------------------
 Sources: SecLists 100k-most-used-passwords-NCSC and the SecLists top-10000

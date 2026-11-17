@@ -19,6 +19,13 @@ PolyForm Noncommercial License 1.0.0, and under any other license later. Without
 that grant, one contribution under other terms blocks every later change of
 license.
 
+Some files are excluded, because their own licenses decide the terms of a
+change:
+
+| Files | Rule |
+| --- | --- |
+| `.agents/skills/` | The Copydesk skills stay under MIT-0, and the demo-video license texts stay under the voice model owners' terms. Do not edit them. |
+
 To add third-party code, follow
 [adding third-party code](docs/acceptable-use.md#adding-third-party-code). That
 code keeps its upstream license, which [NOTICE](NOTICE) records.
@@ -45,4 +52,6 @@ In this project, the sign-off states two things:
 
 ## Before you open a pull request
 
-1. Run `python3 run_tests.py` from the repository root.
+1. Run the tests and the documentation checks in [AGENTS.md](AGENTS.md#checks).
+1. Name the branch and write the commit message as the Copydesk skills in
+   [AGENTS.md](AGENTS.md#copydesk-skills) describe.

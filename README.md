@@ -10,11 +10,13 @@ Passweaver archives offline Wi-Fi password research and synthetic tests.
 
 ## Tests
 
-Run the portable suite from the repository root with Python 3.9 or later.
+From the repository root, run the portable suite with Python 3.9 or later.
 
 ```bash
 python3 run_tests.py
 ```
+
+See the [agent guide](AGENTS.md#checks) for documentation checks.
 
 ## Signed commits
 
@@ -56,7 +58,7 @@ Passweaver is licensed under the [PolyForm Noncommercial License
 1.0.0](LICENSE). Commercial use is not permitted. The license permits more than
 the intended use; [acceptable use](docs/acceptable-use.md) states the intended
 use and its limits. The components that [NOTICE](NOTICE) lists keep their own
-licenses: the public password and frequency wordlists (MIT). One English
-frequency wordlist has unconfirmed provenance, which [NOTICE](NOTICE) tracks. A
-contribution is accepted only under the terms in
-[CONTRIBUTING](CONTRIBUTING.md).
+licenses: the Copydesk skills (MIT-0) and the public password and frequency
+wordlists (MIT). One English frequency wordlist has unconfirmed provenance,
+which [NOTICE](NOTICE) tracks. A contribution is accepted only under the terms
+in [CONTRIBUTING](CONTRIBUTING.md).
