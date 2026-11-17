@@ -10,6 +10,17 @@ components, not to Passweaver as a whole. The rules for adding third-party code
 are in docs/acceptable-use.md, section "Adding third-party code".
 
 ======================================================================
+princeprocessor (PRINCE)
+----------------------------------------------------------------------
+Source:  https://github.com/hashcat/princeprocessor
+License: MIT, Copyright (c) 2015-2021 Jens Steube, Copyright (c) 2015-2021 magnum
+Files:   hybrid-v5/vendor/princeprocessor/
+         (vendored source and the compiled macOS ARM64 binary)
+
+The full MIT text is in hybrid-v5/vendor/princeprocessor/LICENSE. MIT applies
+to this directory instead of the PolyForm Noncommercial License.
+
+======================================================================
 Copydesk skills (branch-names, commit-messages, demo-video, docs-linter,
 explainer, markdown-formatting, technical-writing)
 ----------------------------------------------------------------------

@@ -8,8 +8,10 @@ Passweaver archives offline Wi-Fi password research and synthetic tests.
 | --- | --- |
 | [V3](final-algorithm/README.md) | Reference version with a V2 rollback profile. |
 | [V4.1](hybrid-v4/README.md) | Experiment with staged scheduling and language profiles. |
+| [V5](hybrid-v5/README.md) | First hybrid to preserve the early V3 sequence. |
 
 Keep the version directories next to each other for their imports.
+V5 includes PRINCE source and a macOS ARM64 binary.
 
 ## Tests
 
@@ -61,8 +63,8 @@ Passweaver is licensed under the [PolyForm Noncommercial License
 1.0.0](LICENSE). Commercial use is not permitted. The license permits more than
 the intended use; [acceptable use](docs/acceptable-use.md) states the intended
 use and its limits. The components that [NOTICE](NOTICE) lists keep their own
-licenses: the Copydesk skills (MIT-0), the FrequencyWords wordlists (CC BY-SA
-4.0), and the public password and frequency wordlists (MIT). One English
-frequency wordlist has unconfirmed provenance, which [NOTICE](NOTICE) tracks. A
-contribution is accepted only under the terms in
+licenses: PRINCE (MIT), the Copydesk skills (MIT-0), the FrequencyWords
+wordlists (CC BY-SA 4.0), and the public password and frequency wordlists (MIT).
+One English frequency wordlist has unconfirmed provenance, which
+[NOTICE](NOTICE) tracks. A contribution is accepted only under the terms in
 [CONTRIBUTING](CONTRIBUTING.md).
