@@ -34,6 +34,22 @@ them to carry their license texts, so .agents/skills/demo-video/NOTICE and
 Those texts stay under their owners' terms, not MIT-0.
 
 ======================================================================
+FrequencyWords language wordlists
+----------------------------------------------------------------------
+Source:  https://github.com/hermitdave/FrequencyWords (commit 525f9b560de45753a5ea01069454e72e9aa541c6), OpenSubtitles 2018
+License: CC-BY-SA-4.0
+Attribution: Hermit Dave, FrequencyWords, OpenSubtitles 2018
+Files:   hybrid-v4/wordlists/frequencywords-*.txt (cs, de, en, es, fr, it, nl,
+         pl, pt, ru, tr, uk) and their *.source.txt originals
+
+These prepared wordlists are adaptations: alphabetic words kept, lower-cased,
+and deduplicated preserving source order (see hybrid-v4/wordlists/manifest.json).
+They stay under CC-BY-SA-4.0, not the PolyForm Noncommercial License. Keep the
+attribution and the record of changes with them. CC-BY-SA-4.0 permits commercial
+use of these files; the PolyForm Noncommercial restriction does not extend to
+them.
+
+======================================================================
 Public password and frequency wordlists
 ----------------------------------------------------------------------
 Sources: SecLists 100k-most-used-passwords-NCSC and the SecLists top-10000
@@ -43,21 +59,25 @@ Sources: SecLists 100k-most-used-passwords-NCSC and the SecLists top-10000
 License: MIT
 Files:   final-algorithm/wordlists/ncsc-common-100k.txt,
          final-algorithm/wordlists/symspell-english-80k.txt,
-         final-algorithm/wordlists/seclists-10k.txt
-         (see final-algorithm/wordlists/general-v2-manifest.json
-         and final-algorithm/release-manifest.json)
+         final-algorithm/wordlists/seclists-10k.txt,
+         hybrid-v4/wordlists/ncsc-common-100k.txt,
+         hybrid-v4/wordlists/symspell-english-80k.txt,
+         hybrid-v4/wordlists/seclists-10k.txt
+         (see final-algorithm/wordlists/general-v2-manifest.json,
+         final-algorithm/release-manifest.json,
+         and hybrid-v4/wordlists/manifest.json)
 
 MIT applies to these files instead of the PolyForm Noncommercial License.
-The release manifest records the hash of seclists-10k.txt but no upstream
-URL. Its SecLists attribution is confirmed by the copyright holder, not by a
-manifest.
+The manifests record the hash of seclists-10k.txt but no upstream URL. Its
+SecLists attribution is confirmed by the copyright holder, not by a manifest.
 
 ======================================================================
 Wordlist with unrecorded provenance (TO CONFIRM)
 ----------------------------------------------------------------------
-Files:   final-algorithm/wordlists/english-frequency-10k.txt
+Files:   final-algorithm/wordlists/english-frequency-10k.txt,
+         hybrid-v4/wordlists/english-frequency-10k.txt
 
-The release manifest records its hash but no upstream URL or license.
+The manifests carry this as V3 prepared bytes with no upstream URL or license.
 The name points to an English frequency list, but neither the upstream source nor
 its license is recorded. Confirm the source and license, then record it here. Do
 not redistribute this file under the PolyForm Noncommercial License until the
