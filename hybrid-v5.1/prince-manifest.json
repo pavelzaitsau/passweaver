@@ -1,0 +1,26 @@
+{
+  "source": "https://github.com/hashcat/princeprocessor",
+  "commit": "4160061be78352adb2186619dd18be095da26340",
+  "binary": "vendor/princeprocessor/src/ppAppleArm64.bin",
+  "binary_sha256": "3658cb55efde67fde636ee98378b1936695d52c3124ad776fd52ceec35e81b36",
+  "source_sha256": "5dde11e2f35d0b6317c7f300512f0454ccd8efec3eb39f7108398ec5a20a28ef",
+  "seed": "prince-seeds.txt",
+  "seed_sha256": "afc9721dc4ba19bc26045c4559f373417c761c488f57b659ab9a07e40223fc27",
+  "records": 30115,
+  "preparation": "first 10000 ASCII alphabetic V4.1 mixed English lexical words length1..12; independent lower/Title/UPPER plus0..99 and1990..2030, stable dedup",
+  "argv": [
+    "--pw-min=8",
+    "--pw-max=16",
+    "--elem-cnt-min=2",
+    "--elem-cnt-max=3",
+    "--dupe-check-disable",
+    "--save-pos-disable"
+  ],
+  "locale": "C",
+  "source_files_sha256": {
+    "vendor/princeprocessor/src/pp.c": "5dde11e2f35d0b6317c7f300512f0454ccd8efec3eb39f7108398ec5a20a28ef",
+    "vendor/princeprocessor/src/mpz_int128.h": "4cfafe463143f9010001af364737b1dec4215828bba55c9e48cb5d940bc0a988",
+    "vendor/princeprocessor/src/Makefile": "7463d247a030273064014ef6b7e3ce6a332310462dedc9fb9da063cda458d01d",
+    "vendor/princeprocessor/LICENSE": "4073df0b2d8d335681fed60cbc082cea08998b55b6b9314bb862c8c8adeea191"
+  }
+}

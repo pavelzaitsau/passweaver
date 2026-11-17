@@ -14,11 +14,12 @@ princeprocessor (PRINCE)
 ----------------------------------------------------------------------
 Source:  https://github.com/hashcat/princeprocessor
 License: MIT, Copyright (c) 2015-2021 Jens Steube, Copyright (c) 2015-2021 magnum
-Files:   hybrid-v5/vendor/princeprocessor/
+Files:   hybrid-v5/vendor/princeprocessor/,
+         hybrid-v5.1/vendor/princeprocessor/
          (vendored source and the compiled macOS ARM64 binary)
 
-The full MIT text is in hybrid-v5/vendor/princeprocessor/LICENSE. MIT applies
-to this directory instead of the PolyForm Noncommercial License.
+The full MIT text is in each copy's vendor/princeprocessor/LICENSE. MIT applies
+to these directories instead of the PolyForm Noncommercial License.
 
 ======================================================================
 Copydesk skills (branch-names, commit-messages, demo-video, docs-linter,

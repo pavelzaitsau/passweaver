@@ -1,6 +1,7 @@
 # Passweaver
 
-Passweaver archives offline Wi-Fi password research and synthetic tests.
+Passweaver is a research archive for offline Wi-Fi password studies. It
+contains four revisions and synthetic tests.
 
 ## Revisions
 
@@ -9,9 +10,10 @@ Passweaver archives offline Wi-Fi password research and synthetic tests.
 | [V3](final-algorithm/README.md) | Reference version with a V2 rollback profile. |
 | [V4.1](hybrid-v4/README.md) | Experiment with staged scheduling and language profiles. |
 | [V5](hybrid-v5/README.md) | First hybrid to preserve the early V3 sequence. |
+| [V5.1](hybrid-v5.1/README.md) | Latest reviewed hybrid, with fixes for context handling and report packaging. |
 
-Keep the version directories next to each other for their imports.
-V5 includes PRINCE source and a macOS ARM64 binary.
+Keep the four version directories next to each other for their imports.
+V5 and V5.1 include PRINCE source and a macOS ARM64 binary.
 
 ## Tests
 
@@ -39,6 +41,15 @@ test ! -e "$hook" && install -m 755 .githooks/pre-push "$hook"
 
 If the clone already has a different pre-push hook, add this check to it.
 The hook verifies each commit a push introduces to the remote `main` branch.
+
+## Provenance
+
+The [snapshot manifest](SNAPSHOT-MANIFEST.json) records checksums and file
+sizes for the original import. Version-specific manifests record the original
+experiments and may refer to evidence outside this repository.
+
+The archive excludes private inputs, individual outcomes, capture files,
+and keys.
 
 ## Disclaimer
 

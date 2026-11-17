@@ -30,4 +30,5 @@ python3 run_tests.py
 ```
 
 Pass `'docs/**/*.md'` to the Markdown check when the report docs are present.
-See the README for [commit signing](README.md#signed-commits).
+See the README for [commit signing](README.md#signed-commits) and
+[archive provenance](README.md#provenance).

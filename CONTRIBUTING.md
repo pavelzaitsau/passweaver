@@ -24,7 +24,7 @@ change:
 
 | Files | Rule |
 | --- | --- |
-| `hybrid-v5/vendor/princeprocessor/` | PRINCE stays under its own MIT license. Change it upstream, not here. |
+| `hybrid-v5/vendor/princeprocessor/`, `hybrid-v5.1/vendor/princeprocessor/` | PRINCE stays under its own MIT license. Change it upstream, not here. |
 | `hybrid-v4/wordlists/frequencywords-*.txt` and their `.source.txt` originals | The FrequencyWords data stays under CC-BY-SA-4.0 with attribution. |
 | `.agents/skills/` | The Copydesk skills stay under MIT-0, and the demo-video license texts stay under the voice model owners' terms. Do not edit them. |
 

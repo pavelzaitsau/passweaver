@@ -1,0 +1,625 @@
+{
+  "description": "Checksums for the source snapshot. Edited docs also record their original size and checksum.",
+  "files": [
+    {
+      "path": "final-algorithm/.gitignore",
+      "bytes": 42,
+      "sha256": "0e2609454e1b326d2727b265ce724dea9c840879636507f311cdff7c072e9078"
+    },
+    {
+      "path": "final-algorithm/ALGORITHM.md",
+      "bytes": 757,
+      "sha256": "05616bf948d0d934927c3007bc726cb19e922f1fa0d0d991b3e1627fa6a8509f",
+      "source_bytes": 9881,
+      "source_sha256": "d6708330e9c6f12fd853eaaed56f870e59e38d157adb663e208593081a3a5b95"
+    },
+    {
+      "path": "final-algorithm/README.md",
+      "bytes": 504,
+      "sha256": "d2ac0ce2e6543c1e03c9d23e0ef7eb8a955de4f0469b8cf8022e10dbb25a5406",
+      "source_bytes": 6518,
+      "source_sha256": "0c03a36ec85d19351148112ca610d915e64a08aa17a52a9b6346a90428287062"
+    },
+    {
+      "path": "final-algorithm/REVIEW.md",
+      "bytes": 1050,
+      "sha256": "60267e5c52b0409c3c59eaed8dd3f4993917860b6da7108a8d639157b8f399da",
+      "source_bytes": 14446,
+      "source_sha256": "f071eb5644caa93314a7db9903059fa00a0e4a328c9f2b4c6657d55b9871a38c"
+    },
+    {
+      "path": "final-algorithm/audit.py",
+      "bytes": 1677,
+      "sha256": "69ae874eec07bc04920de1035a811d45a998ccd04ca392f9956132a416abdeeb"
+    },
+    {
+      "path": "final-algorithm/config.json",
+      "bytes": 396,
+      "sha256": "601e6b863fa13c07928408269e19784e410cb3dd0b5320f71a39da415391ed34"
+    },
+    {
+      "path": "final-algorithm/engine.py",
+      "bytes": 12809,
+      "sha256": "3ddf56608489bfdbc5920a55893900cf549a17a56e827af640da52694c5fd1f3"
+    },
+    {
+      "path": "final-algorithm/expanded_ssid.py",
+      "bytes": 2560,
+      "sha256": "632818a6b29e8becd562c0b41b7b68faa5b6b3a438c945a72076e9852406dce2"
+    },
+    {
+      "path": "final-algorithm/fixtures/demo.jsonl",
+      "bytes": 88,
+      "sha256": "c8233cc3b224971e74d651748a58686b905009cc4233cc3d85525cf67839ecce"
+    },
+    {
+      "path": "final-algorithm/fixtures/legacy-golden.json",
+      "bytes": 4208,
+      "sha256": "fb4d1579cc827e6837fb1f65d7ffdd42959da81fbec4761b52a4fd7353a465a7"
+    },
+    {
+      "path": "final-algorithm/generate.py",
+      "bytes": 2507,
+      "sha256": "37f75d00726d2e59f1c52b3952d4a661c3893d95e3bd4037daf9b295947ed952"
+    },
+    {
+      "path": "final-algorithm/profiles/v2-rollback.json",
+      "bytes": 388,
+      "sha256": "33cd0062d33d7a83777048cf381783790e05d0ade6356c88b6931e0bf5485e78"
+    },
+    {
+      "path": "final-algorithm/release-manifest.json",
+      "bytes": 10017,
+      "sha256": "d4900eca1fe21f11328cac6f08ab7d8cd03f2ca9d3c60c470d8456ffd1299cf5"
+    },
+    {
+      "path": "final-algorithm/rules.py",
+      "bytes": 3384,
+      "sha256": "030c24c2379a3770087ddf05cdfad7843c143a10b7059fd9a77713634fe403bb"
+    },
+    {
+      "path": "final-algorithm/test_cli.py",
+      "bytes": 6044,
+      "sha256": "0f6de749cbe9b57439c2d2cf7b4ea2c832e0fb787578e279790e27e73f07e52e"
+    },
+    {
+      "path": "final-algorithm/test_engine.py",
+      "bytes": 2520,
+      "sha256": "a41af398cdb724bb6b2376451d909705e2fffac7a1636257d013c7e15d766306"
+    },
+    {
+      "path": "final-algorithm/test_fixes.py",
+      "bytes": 2847,
+      "sha256": "847972fe5a66deeeb65a511ceb4aedc1466ded608a6ab13233868958eb426dca"
+    },
+    {
+      "path": "final-algorithm/test_review.py",
+      "bytes": 7376,
+      "sha256": "863693da85e182413a09faf34635589a7af39a7e64959144c1a143d079b85e69"
+    },
+    {
+      "path": "final-algorithm/test_rules.py",
+      "bytes": 1364,
+      "sha256": "a57ebbaa66c63b57d1516742973b171f950ff02aa15f4f419b611049683b2c06"
+    },
+    {
+      "path": "final-algorithm/test_sd_captures.py",
+      "bytes": 5355,
+      "sha256": "db1b94068b704b9e4d98a1a04fa02a17902142f311db360018cb916b171238b6"
+    },
+    {
+      "path": "final-algorithm/test_teleport.py",
+      "bytes": 3144,
+      "sha256": "2d0f2dbb7a26d55b3d980eca90170033ad560898ae129fabc5de649b05ac9f73"
+    },
+    {
+      "path": "final-algorithm/wordlists/english-frequency-10k.txt",
+      "bytes": 75153,
+      "sha256": "d6b3e04f1ac30be6525d41474166c0bff28486ecd8c48dcb0ab9c7c9cc05ed86"
+    },
+    {
+      "path": "final-algorithm/wordlists/general-v2-manifest.json",
+      "bytes": 1746,
+      "sha256": "0b0bde6e68ef1e172a2f64643711a6f16c92e35639e96e0e926fe17d62878197"
+    },
+    {
+      "path": "final-algorithm/wordlists/ncsc-common-100k.txt",
+      "bytes": 835537,
+      "sha256": "626c30fc3c8f16e5f8977ce898f9fa9c0ea42f6463c7e0addde4bdbbb7e251ab"
+    },
+    {
+      "path": "final-algorithm/wordlists/seclists-10k.txt",
+      "bytes": 73026,
+      "sha256": "68782d6a4a19a4768d5f15dd66bd534e7a33055cc755411e33f16d18c50fdcce"
+    },
+    {
+      "path": "final-algorithm/wordlists/symspell-english-80k.txt",
+      "bytes": 753195,
+      "sha256": "b0b64dfd09aac37e93fa171421936efd90133e490f1d5985f462e074944da632"
+    },
+    {
+      "path": "hybrid-v4/README.md",
+      "bytes": 652,
+      "sha256": "56b04dce8da78bd88e0ccfd78c542ae75e4ecfd98847adac4d6958b5bdf658f2",
+      "source_bytes": 8784,
+      "source_sha256": "001c46dcfa08f33565610c24ddab7f54e3b8cd0bb8d020113e2029b40e9d2fc3"
+    },
+    {
+      "path": "hybrid-v4/REVIEW.md",
+      "bytes": 782,
+      "sha256": "3230088fca565171fa3d864cf2302eb0c36d8914bb69a16f5a0a21c46f6956e2",
+      "source_bytes": 7311,
+      "source_sha256": "039133984ece482e66dcdc2b2e9e1308e7f2e4c969accd41b38a9a1d8c02fc28"
+    },
+    {
+      "path": "hybrid-v4/SPEC.md",
+      "bytes": 628,
+      "sha256": "f96037de1765478502829156a8d4a2effe834a63500f217c2eca34a13044d17f",
+      "source_bytes": 11751,
+      "source_sha256": "863ad3de27ccf40f6f8babd897730a55649a0959e4694dc6c966ff90b3e487fe"
+    },
+    {
+      "path": "hybrid-v4/batch.py",
+      "bytes": 15496,
+      "sha256": "ec188311cac9c80eb2370c75aac4cc022188c31dcf60e8ca1461b7e0e8a8d4e5"
+    },
+    {
+      "path": "hybrid-v4/compare.py",
+      "bytes": 9638,
+      "sha256": "202a17d9882a043877623e99903627d3fe067bffbb6060618814185757a48489"
+    },
+    {
+      "path": "hybrid-v4/fixtures/context.json",
+      "bytes": 93,
+      "sha256": "855cb993dd22c8c1c216c8dffb1ee31584366223dc59100253b1193d9fd843a3"
+    },
+    {
+      "path": "hybrid-v4/fixtures/demo.jsonl",
+      "bytes": 126,
+      "sha256": "1e841d498323dfc30baf39fa602e9a74768ffdd3e416fd35735909f2cf6c0427"
+    },
+    {
+      "path": "hybrid-v4/hybrid.py",
+      "bytes": 17710,
+      "sha256": "0801525dc6cfa9ea95cdfb4844f009010768472ad8445aa8d2cdbb7306228d43"
+    },
+    {
+      "path": "hybrid-v4/oracles.py",
+      "bytes": 2174,
+      "sha256": "cf216793e3ea82f11cd61e79c037c1653c003bb33cdbc37a7fbdabf64cb3ba96"
+    },
+    {
+      "path": "hybrid-v4/release-manifest.json",
+      "bytes": 5135,
+      "sha256": "9715cd60ffe8b17e6c92572a182b60d24a1198574dc72f7d89f90940be143b64"
+    },
+    {
+      "path": "hybrid-v4/reporting/analyze.py",
+      "bytes": 4886,
+      "sha256": "9dc603aad2b6bd4818c81b86abc182be6724f99dbfff56f9fec976c7d5b6ebc1"
+    },
+    {
+      "path": "hybrid-v4/reporting/build.py",
+      "bytes": 29679,
+      "sha256": "0d3afea9878c6e35335d0e0801631f2a634a2612cf0c928c6bf0f114f120d0a1"
+    },
+    {
+      "path": "hybrid-v4/reporting/test_analyze.py",
+      "bytes": 1870,
+      "sha256": "099f39e06e290000c20b00e6107a82a703c4cf79b6fb1aec05eb628b8780908c"
+    },
+    {
+      "path": "hybrid-v4/reporting/test_build.py",
+      "bytes": 1597,
+      "sha256": "ce02cf6613cac80d3e57ef3e742c676e6b4c75d426a0ab892248038d5cda8947"
+    },
+    {
+      "path": "hybrid-v4/test_batch.py",
+      "bytes": 10625,
+      "sha256": "165029bd579f1a15091fad3668e14bf3ee19b43013f1a9348876582024580fe6"
+    },
+    {
+      "path": "hybrid-v4/test_compare.py",
+      "bytes": 2870,
+      "sha256": "edfdf2c9fd523f659d04ca9a415d03e7510016779e9576a76cc0f62764861aa0"
+    },
+    {
+      "path": "hybrid-v4/test_hybrid.py",
+      "bytes": 9693,
+      "sha256": "3925af3cfb1d37bf0aa0d22c51f1803cb795c0e282072788ad62d250aafb3f92"
+    },
+    {
+      "path": "hybrid-v4/test_independent.py",
+      "bytes": 4557,
+      "sha256": "c3ecb2e4503e48baad41d9921eada4610fb6741b5ea1f277c2a24479bd0fb8a4"
+    },
+    {
+      "path": "hybrid-v4/wordlists/english-frequency-10k.txt",
+      "bytes": 75153,
+      "sha256": "d6b3e04f1ac30be6525d41474166c0bff28486ecd8c48dcb0ab9c7c9cc05ed86"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-cs.source.txt",
+      "bytes": 656472,
+      "sha256": "1fb0576ef07cf5a543789d394cde1168573fc9e7adf427fd143249fd5547458d"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-cs.txt",
+      "bytes": 436154,
+      "sha256": "3050f7fed4b2295c232e8823c0ea426fb8e94cc45388a694190467f3092db2d6"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-de.source.txt",
+      "bytes": 662497,
+      "sha256": "d9e50546fd7e8b6fe6542a2b33c51d1331092b2a3916ec09f80d97856068705b"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-de.txt",
+      "bytes": 462267,
+      "sha256": "75b1184058457323f8e39f325e3b8e5e85a8c19a5f03412ddd14df67c7fbe537"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-en.source.txt",
+      "bytes": 622749,
+      "sha256": "5351ff405b1126ef555791dd4d9798a48e3e9a501a9fc481a9da957752cfb458"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-en.txt",
+      "bytes": 374538,
+      "sha256": "6372ba76f1ea7dff610de3ba3395da4f5e4838ad75e162cd8f1859c86bb4355a"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-es.source.txt",
+      "bytes": 658626,
+      "sha256": "dcff3ad4316192f4dc4ff7d26e637c6ff314ef1ca0f3f720c5649018a71056c0"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-es.txt",
+      "bytes": 434898,
+      "sha256": "3c8391d75ac56f86ad589d59df6dfd7ab90f1641dc4fb48fec6b8f152f20accf"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-fr.source.txt",
+      "bytes": 653452,
+      "sha256": "f81f7c570b6433764da99aa30f4dfb08d81c5926301377b709af23a13b1f9596"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-fr.txt",
+      "bytes": 404840,
+      "sha256": "f0a1714e0feddc7386432be32c2a07e50ae8c000aa2be08cc396329d0fef3548"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-it.source.txt",
+      "bytes": 653205,
+      "sha256": "bb96cdcb56d28342c1e909db6b2525448b7767136b7e86a2ccc649a1be66fc19"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-it.txt",
+      "bytes": 431796,
+      "sha256": "7f29900c08b989fb5d109de239ec480fad671b577f9135c7c6c2daeeed143043"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-nl.source.txt",
+      "bytes": 650762,
+      "sha256": "099bd0c27b514d54284360ad9ce2b4ef7b6903b22e848b67ab10f6aa2adb4baa"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-nl.txt",
+      "bytes": 438620,
+      "sha256": "df0074fefc6650cd2c405c7ffabe64a6f995d6a8901ae800ad3c70cedbabbf9a"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-pl.source.txt",
+      "bytes": 676499,
+      "sha256": "50bf8d30d1ed4f5cedceb3e40e74d793ec6bec0f16d9f3dd0a2c9e313402e10f"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-pl.txt",
+      "bytes": 455823,
+      "sha256": "fa4720761c41aad950c679e90409328f2540d9c9f82e3fd41514b91289e359c3"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-pt.source.txt",
+      "bytes": 652361,
+      "sha256": "f97704382f97273ff59488b1885e7ac90d20f81fd92e5fbad3e3ce43633f495c"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-pt.txt",
+      "bytes": 379001,
+      "sha256": "1497e9e6283d811e95f28c751e518ae9f10837aa54d65e3ca2d83e67ca6c98ba"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-ru.source.txt",
+      "bytes": 998861,
+      "sha256": "6095f507cc167488ec66ada5a85ac50433503a08ad24a07c6eabdf54352c4e7f"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-ru.txt",
+      "bytes": 776880,
+      "sha256": "93bd35799bf132b79986b92aaaf7c1debb611eee97ffc3d280f5410465c905e8"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-tr.source.txt",
+      "bytes": 711935,
+      "sha256": "480192844e7fdfe9591bbf0b9cfbb96ed5751cfbba7024fd45d8cb7508e07d5c"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-tr.txt",
+      "bytes": 490627,
+      "sha256": "5af44e7ce51657b028e2aa9729fe15d738f0f936a4e2607c0739a5be936f50d6"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-uk.source.txt",
+      "bytes": 887259,
+      "sha256": "881686fe66a168b79f6a9ee2f6cbbf944cfb12bfb7040913ef535cb29bd86ec9"
+    },
+    {
+      "path": "hybrid-v4/wordlists/frequencywords-uk.txt",
+      "bytes": 738002,
+      "sha256": "235515301924fe4857de60c1d76df221ecdf22c26b37fed81911678feb351af3"
+    },
+    {
+      "path": "hybrid-v4/wordlists/manifest.json",
+      "bytes": 10974,
+      "sha256": "5c49c1f27213a7fc28faad3933158a87e483e1a2e65c195568fba4b73e4fb1c3"
+    },
+    {
+      "path": "hybrid-v4/wordlists/ncsc-common-100k.txt",
+      "bytes": 835537,
+      "sha256": "626c30fc3c8f16e5f8977ce898f9fa9c0ea42f6463c7e0addde4bdbbb7e251ab"
+    },
+    {
+      "path": "hybrid-v4/wordlists/seclists-10k.txt",
+      "bytes": 73026,
+      "sha256": "68782d6a4a19a4768d5f15dd66bd534e7a33055cc755411e33f16d18c50fdcce"
+    },
+    {
+      "path": "hybrid-v4/wordlists/symspell-english-80k.txt",
+      "bytes": 753195,
+      "sha256": "b0b64dfd09aac37e93fa171421936efd90133e490f1d5985f462e074944da632"
+    },
+    {
+      "path": "hybrid-v5/README.md",
+      "bytes": 381,
+      "sha256": "975c8921419ba4d30b1935fbaba5f8603086291752a6b4cef5358e58135fff8d",
+      "source_bytes": 5496,
+      "source_sha256": "6ef76d57fd9782c9205bf48477e61eeba9d5039b3c23fbce52aead7e280dacf0"
+    },
+    {
+      "path": "hybrid-v5/SPEC.md",
+      "bytes": 601,
+      "sha256": "86c0ed6447ca616fe17da2219e7bab93db1b4e12954f523723274fe9e9225e9c",
+      "source_bytes": 7695,
+      "source_sha256": "edb23bfb10bea355c5478127e870d2c06848a655b20983d9c4eeb8b0db05f78d"
+    },
+    {
+      "path": "hybrid-v5/compare_v5.py",
+      "bytes": 17490,
+      "sha256": "04064e7d331de192a4ebf1d9944d5cab9327b2d2cf2bab204f2903d65e31efe9"
+    },
+    {
+      "path": "hybrid-v5/prince-manifest.json",
+      "bytes": 1290,
+      "sha256": "643a3c09b3b6a660007f1805e18dfadc9051a0e0e2410f62def84272fd6d4874"
+    },
+    {
+      "path": "hybrid-v5/prince-seeds.txt",
+      "bytes": 221966,
+      "sha256": "afc9721dc4ba19bc26045c4559f373417c761c488f57b659ab9a07e40223fc27"
+    },
+    {
+      "path": "hybrid-v5/refresh_baseline.py",
+      "bytes": 4613,
+      "sha256": "5e248a6e70f3701e6ca57512ec7cb66f2d2fed25625ebe33f069776463826c6c"
+    },
+    {
+      "path": "hybrid-v5/reporting/build.py",
+      "bytes": 16086,
+      "sha256": "5bfca52216ec72cf3cc7b441ad1bd037864ba91f6becf62b455cc0ef8eae98db"
+    },
+    {
+      "path": "hybrid-v5/reporting/charts.py",
+      "bytes": 6734,
+      "sha256": "2a5f2a93e36f4a464fa4933533fb0aebb2244515ce0fd15f900c118d8e127cc3"
+    },
+    {
+      "path": "hybrid-v5/test_cache.py",
+      "bytes": 6144,
+      "sha256": "3708a931ff8dae5c8b53563616cd314a11930149ea89528019fb259315304aea"
+    },
+    {
+      "path": "hybrid-v5/test_v5.py",
+      "bytes": 6936,
+      "sha256": "dcd805ef99c09e40be1f15b31aefee916442809a3fa9a90d6fae2d9d2e9fce4d"
+    },
+    {
+      "path": "hybrid-v5/v5.py",
+      "bytes": 8623,
+      "sha256": "51a3622a92cb67a3c1d22ed3de55a84641d9be2c68bc6e515039bbf642299c4c"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/.editorconfig",
+      "bytes": 283,
+      "sha256": "24907730b107aa6731da6ba7a915d5a3aa4acc0156e610353c593050c02466e9"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/.gitignore",
+      "bytes": 30,
+      "sha256": "70f64310f0b55a9226c863fc45fb289ea01def6ef2cfc57f88c7f42532f9569e"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/CHANGES",
+      "bytes": 2056,
+      "sha256": "e73ac8db23b29cc167122f6bf773d5c9a973957f67af9ab14d607be1e1bdb847"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/LICENSE",
+      "bytes": 1447,
+      "sha256": "4073df0b2d8d335681fed60cbc082cea08998b55b6b9314bb862c8c8adeea191"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/README.md",
+      "bytes": 1756,
+      "sha256": "e4dd4549b430daca0f50ff2b86e22c66d5249ae867b93cdcc3b25d0ed8eb7470"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/rules/prince_generated.rule",
+      "bytes": 58561,
+      "sha256": "66ad8dc51eb16026f9aaca48873bd893d754389b84d4c46eed2a6f032ed0b402"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/rules/prince_optimized.rule",
+      "bytes": 12666,
+      "sha256": "e31b0a698b3b4d3c11733fe02e45aa8f3461a3861d9d3d698a811933232a506e"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/src/Makefile",
+      "bytes": 1554,
+      "sha256": "7463d247a030273064014ef6b7e3ce6a332310462dedc9fb9da063cda458d01d"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/src/mpz_int128.h",
+      "bytes": 4659,
+      "sha256": "4cfafe463143f9010001af364737b1dec4215828bba55c9e48cb5d940bc0a988"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/src/pp.c",
+      "bytes": 35073,
+      "sha256": "5dde11e2f35d0b6317c7f300512f0454ccd8efec3eb39f7108398ec5a20a28ef"
+    },
+    {
+      "path": "hybrid-v5/vendor/princeprocessor/src/ppAppleArm64.bin",
+      "bytes": 35072,
+      "sha256": "3658cb55efde67fde636ee98378b1936695d52c3124ad776fd52ceec35e81b36"
+    },
+    {
+      "path": "hybrid-v5.1/README.md",
+      "bytes": 347,
+      "sha256": "6469445e69963af40e5d740087d1b35177d23ff82d315e1c880ac3be7596569f",
+      "source_bytes": 4754,
+      "source_sha256": "de1167f0ab38c6095bbe6b2575c788473d05894ce9bd3904848600bab840c44f"
+    },
+    {
+      "path": "hybrid-v5.1/SPEC.md",
+      "bytes": 568,
+      "sha256": "e72bbe129030a8e852d5b97198684e3476161c8b8832aeee42a0a7e592ec5708",
+      "source_bytes": 9513,
+      "source_sha256": "e7156ffa9958238e67d2cf20a33110464eb839e41400192295fd27e21f866d88"
+    },
+    {
+      "path": "hybrid-v5.1/compare_v5.py",
+      "bytes": 17507,
+      "sha256": "933c7febe52fe4a172387912ec4ca8b31389d01abf94e39db595e6dac8e0846c"
+    },
+    {
+      "path": "hybrid-v5.1/prince-manifest.json",
+      "bytes": 1290,
+      "sha256": "643a3c09b3b6a660007f1805e18dfadc9051a0e0e2410f62def84272fd6d4874"
+    },
+    {
+      "path": "hybrid-v5.1/prince-seeds.txt",
+      "bytes": 221966,
+      "sha256": "afc9721dc4ba19bc26045c4559f373417c761c488f57b659ab9a07e40223fc27"
+    },
+    {
+      "path": "hybrid-v5.1/refresh_baseline.py",
+      "bytes": 4613,
+      "sha256": "5e248a6e70f3701e6ca57512ec7cb66f2d2fed25625ebe33f069776463826c6c"
+    },
+    {
+      "path": "hybrid-v5.1/reporting/archive.py",
+      "bytes": 1247,
+      "sha256": "5521125cbf3d7d20615bf57b6c7e154aad935d05494216ef74236fa0d7123d8b"
+    },
+    {
+      "path": "hybrid-v5.1/reporting/build.py",
+      "bytes": 17191,
+      "sha256": "99785b79db0b59011235e6b356132f63613885ac46a3820ba75c3915242e646c"
+    },
+    {
+      "path": "hybrid-v5.1/reporting/charts.py",
+      "bytes": 6746,
+      "sha256": "ee85383df5f288c2b638d86525ddfa7aa23540e75f8726b5033684d96db59624"
+    },
+    {
+      "path": "hybrid-v5.1/test_archive.py",
+      "bytes": 1503,
+      "sha256": "728648e316cc7c3096de43cfa851b13be81bbdf7cc584ba28c95c856f17d9f24"
+    },
+    {
+      "path": "hybrid-v5.1/test_cache.py",
+      "bytes": 6144,
+      "sha256": "3708a931ff8dae5c8b53563616cd314a11930149ea89528019fb259315304aea"
+    },
+    {
+      "path": "hybrid-v5.1/test_context.py",
+      "bytes": 2843,
+      "sha256": "5aca8482ce1fa598d6e546abf2da5104ef6e174b0f94fa639777ba1d917bc777"
+    },
+    {
+      "path": "hybrid-v5.1/test_v5.py",
+      "bytes": 6936,
+      "sha256": "dcd805ef99c09e40be1f15b31aefee916442809a3fa9a90d6fae2d9d2e9fce4d"
+    },
+    {
+      "path": "hybrid-v5.1/v5.py",
+      "bytes": 9391,
+      "sha256": "0ce8c46a0ad2605c84e80fbe90b9b2c26633a043c787ae98b2a0113ea1ab61d4"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/.editorconfig",
+      "bytes": 283,
+      "sha256": "24907730b107aa6731da6ba7a915d5a3aa4acc0156e610353c593050c02466e9"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/.gitignore",
+      "bytes": 30,
+      "sha256": "70f64310f0b55a9226c863fc45fb289ea01def6ef2cfc57f88c7f42532f9569e"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/CHANGES",
+      "bytes": 2056,
+      "sha256": "e73ac8db23b29cc167122f6bf773d5c9a973957f67af9ab14d607be1e1bdb847"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/LICENSE",
+      "bytes": 1447,
+      "sha256": "4073df0b2d8d335681fed60cbc082cea08998b55b6b9314bb862c8c8adeea191"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/README.md",
+      "bytes": 1756,
+      "sha256": "e4dd4549b430daca0f50ff2b86e22c66d5249ae867b93cdcc3b25d0ed8eb7470"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/rules/prince_generated.rule",
+      "bytes": 58561,
+      "sha256": "66ad8dc51eb16026f9aaca48873bd893d754389b84d4c46eed2a6f032ed0b402"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/rules/prince_optimized.rule",
+      "bytes": 12666,
+      "sha256": "e31b0a698b3b4d3c11733fe02e45aa8f3461a3861d9d3d698a811933232a506e"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/src/Makefile",
+      "bytes": 1554,
+      "sha256": "7463d247a030273064014ef6b7e3ce6a332310462dedc9fb9da063cda458d01d"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/src/mpz_int128.h",
+      "bytes": 4659,
+      "sha256": "4cfafe463143f9010001af364737b1dec4215828bba55c9e48cb5d940bc0a988"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/src/pp.c",
+      "bytes": 35073,
+      "sha256": "5dde11e2f35d0b6317c7f300512f0454ccd8efec3eb39f7108398ec5a20a28ef"
+    },
+    {
+      "path": "hybrid-v5.1/vendor/princeprocessor/src/ppAppleArm64.bin",
+      "bytes": 35072,
+      "sha256": "3658cb55efde67fde636ee98378b1936695d52c3124ad776fd52ceec35e81b36"
+    }
+  ]
+}
