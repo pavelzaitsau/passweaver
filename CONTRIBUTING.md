@@ -52,6 +52,9 @@ In this project, the sign-off states two things:
 1. You license the change to the project under MIT-0, as
    [License of a contribution](#license-of-a-contribution) describes.
 
+The sign-off is separate from commit signing, which the project also requires;
+see [signed commits](AGENTS.md#signed-commits).
+
 ## Before you open a pull request
 
 1. Run the tests and the documentation checks in [AGENTS.md](AGENTS.md#checks).
