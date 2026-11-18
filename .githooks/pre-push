@@ -1,0 +1,30 @@
+#!/bin/sh
+set -eu
+export GIT_NO_REPLACE_OBJECTS=1
+
+while read -r _local_ref local_oid remote_ref remote_oid; do
+    [ "$remote_ref" = refs/heads/main ] || continue
+
+    # A zero local ID deletes the branch. A zero remote ID creates it.
+    case "$local_oid" in
+        *[!0]*) ;;
+        *) continue ;;
+    esac
+    case "$remote_oid" in
+        *[!0]*) range="$remote_oid..$local_oid" ;;
+        *) range="$local_oid" ;;
+    esac
+
+    if ! commits=$(git rev-list "$range" --); then
+        printf 'pre-push: cannot list commits for main. Fetch the remote branch and retry.\n' >&2
+        exit 1
+    fi
+
+    for commit in $commits; do
+        if ! result=$(git -c gpg.minTrustLevel=fully verify-commit "$commit" 2>&1); then
+            printf 'pre-push: main requires a trusted signature on commit %s.\n' "$commit" >&2
+            printf '%s\n' "$result" >&2
+            exit 1
+        fi
+    done
+done

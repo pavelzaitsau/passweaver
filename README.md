@@ -16,6 +16,23 @@ Run the portable suite from the repository root with Python 3.9 or later.
 python3 run_tests.py
 ```
 
+## Signed commits
+
+Set up Git commit signing for your clone and check that Git trusts your
+signing key. For SSH signing, put the trusted public signing keys in the
+file set by `gpg.ssh.allowedSignersFile`.
+See [GitHub's commit signing guide](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits).
+
+```sh
+git config --local commit.gpgsign true
+git verify-commit HEAD
+hook=$(git rev-parse --git-path hooks/pre-push)
+test ! -e "$hook" && install -m 755 .githooks/pre-push "$hook"
+```
+
+If the clone already has a different pre-push hook, add this check to it.
+The hook verifies each commit a push introduces to the remote `main` branch.
+
 ## Disclaimer
 
 To the maximum extent permitted by law, the author provides Passweaver "as is",
