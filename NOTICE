@@ -1,0 +1,41 @@
+Passweaver
+Copyright 2026 Pavel Zaitsau
+
+Passweaver is licensed under the PolyForm Noncommercial License 1.0.0. See the
+LICENSE file.
+
+Passweaver includes components developed by third parties, or released under
+other terms, as listed below. These licenses apply only to the listed
+components, not to Passweaver as a whole. The rules for adding third-party code
+are in docs/acceptable-use.md, section "Adding third-party code".
+
+======================================================================
+Public password and frequency wordlists
+----------------------------------------------------------------------
+Sources: SecLists 100k-most-used-passwords-NCSC and the SecLists top-10000
+         password list (https://github.com/danielmiessler/SecLists, MIT);
+         SymSpell frequency_dictionary_en_82_765
+         (https://github.com/wolfgarbe/SymSpell, MIT)
+License: MIT
+Files:   final-algorithm/wordlists/ncsc-common-100k.txt,
+         final-algorithm/wordlists/symspell-english-80k.txt,
+         final-algorithm/wordlists/seclists-10k.txt
+         (see final-algorithm/wordlists/general-v2-manifest.json
+         and final-algorithm/release-manifest.json)
+
+MIT applies to these files instead of the PolyForm Noncommercial License.
+The release manifest records the hash of seclists-10k.txt but no upstream
+URL. Its SecLists attribution is confirmed by the copyright holder, not by a
+manifest.
+
+======================================================================
+Wordlist with unrecorded provenance (TO CONFIRM)
+----------------------------------------------------------------------
+Files:   final-algorithm/wordlists/english-frequency-10k.txt
+
+The release manifest records its hash but no upstream URL or license.
+The name points to an English frequency list, but neither the upstream source nor
+its license is recorded. Confirm the source and license, then record it here. Do
+not redistribute this file under the PolyForm Noncommercial License until the
+upstream terms are confirmed.
+======================================================================
