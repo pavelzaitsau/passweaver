@@ -22,7 +22,7 @@ if len(sys.argv) == 1:
     env = {k:v for k,v in os.environ.items() if not k.startswith('WFM_')}
     env['PYTHONDONTWRITEBYTECODE'] = '1'
     codes = [subprocess.run([sys.executable, str(Path(__file__).resolve()), name], env=env).returncode
-             for name in ('final-algorithm', 'hybrid-v4', 'hybrid-v5', 'hybrid-v5.1')]
+             for name in ('final-algorithm', 'hybrid-v4', 'hybrid-v5', 'hybrid-v5.1', 'passweaver')]
     sys.exit(any(codes))
 folder = ROOT / sys.argv[1]
 os.chdir(folder)
